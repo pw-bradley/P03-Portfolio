@@ -195,10 +195,6 @@ img {
 }
 
 @media (max-width: 575px) {
-  p {
-    padding-top: 10px;
-  }
-
   #hero h1 {
     font-size: 40px;
   }
@@ -351,4 +347,14 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+
+.headings {
+  font-family: "Raleway", sans-serif;
+  color: #3b434a !important;
+}
+.font-example {
+  font-weight: bold;
+  font-size: 3em;
 }

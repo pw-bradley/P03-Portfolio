@@ -6,15 +6,18 @@
 .img-description {
   
   background: rgba(25, 28, 31, 0.8);
-  padding: 7.5px 10px 15px 15px;
+  padding: 0 10px 0 15px;
   margin: auto;
   display: flex;
+  
 }
 .description-text {
   color: white;
   font-size: 0.8em;
   margin-right: auto;
-  transform: translateY(25%);
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
 }
 .preview-link {
   font-size: 24px;
@@ -22,7 +25,7 @@
   transition: 0.3s;
   margin-left: auto;
   font-size: 36px;
-  padding: 5px;
+
 }
 .preview-link:hover {
   color: #ffc041;
@@ -38,7 +41,7 @@
   width: 100%;
 }
 
-.portfolio-img, .portfolio-details .portfolio-details-slider .swiper-pagination {
+.portfolio-img, .portfolio-details .portfolio-details-slider .swiper-pagination, .colour {
   position: relative;
   margin-top: 15px;
 }
@@ -46,6 +49,13 @@
 p {
   margin: 0;
 }
+
+.portfolio-info{
+  left: 12px !important;
+  right: 12px !important;
+}
+
+
 
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
@@ -96,6 +106,18 @@ p {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+h4 {
+  padding-top: 20px;
+}
+
+
+@media (max-width: 1400px) {
+  .portfolio-info h4, .portfolio-info p{
+    padding-right: 5em;
+  }
+}
+
 
 @media (max-width: 991px) {
   h1{
