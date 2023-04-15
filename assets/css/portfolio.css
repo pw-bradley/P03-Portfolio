@@ -17,7 +17,6 @@
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-  width: 50%;
 }
 .preview-link, .personal-link {
   font-size: 24px;
@@ -58,6 +57,9 @@ p {
 .portfolio-nav{
   position: sticky;
   top: 70px;
+}
+.portfolio-nav .nav-link:hover{
+  color:purple;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
