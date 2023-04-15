@@ -123,3 +123,11 @@
     transition: 0.9s;
     background-color: #ffb727;
   }
+
+
+  @media (max-width: 1000px) {
+    .about p {
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+  }

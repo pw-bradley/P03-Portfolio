@@ -4,12 +4,11 @@
 
 /* Image & Image Subtitles*/
 .img-description {
-  
   background: rgba(25, 28, 31, 0.8);
   padding: 0 10px 0 15px;
   margin: auto;
   display: flex;
-  
+  margin-bottom: 1em;
 }
 .description-text {
   color: white;
@@ -110,6 +109,20 @@ p {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+h3{
+  margin-top: 0.5em;
+}
+
+h4 {
+  margin-top: 1em;
+}
+
+.swiper-wrapper{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 
 @media (min-width: 1400px) {
   h1{
