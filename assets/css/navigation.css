@@ -4,7 +4,7 @@
 /**
 * Desktop Navigation 
 */
-.navbar {
+  .navbar {
     padding: 0;
   }
   
@@ -42,14 +42,8 @@
     line-height: 0;
     margin-left: 5px;
   }
-  
-  .purple .navbar a:hover,.purple .navbar .active,.purple .navbar .active:focus,.purple .navbar li:hover>a {
-    color: purple;
-  }
-  .teal .navbar a:hover,.teal .navbar .active,.teal .navbar .active:focus,.teal .navbar li:hover>a {
-    color: teal;
-  }
-  .orange a:hover,.orange .navbar .active,.orange .navbar .active:focus,.orange .navbar li:hover>a {
+
+  a:hover,.navbar .active,.navbar .active:focus,.navbar li:hover>a {
     color: #ffb727;
   }
   

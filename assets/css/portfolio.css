@@ -19,15 +19,15 @@
   margin-bottom: auto;
   width: 50%;
 }
-.preview-link {
+.preview-link, .personal-link {
   font-size: 24px;
   color: white;
   transition: 0.3s;
   margin-left: auto;
   font-size: 36px;
-
 }
-.preview-link:hover {
+
+.preview-link:hover, .personal-link:hover {
   color: #ffc041;
 }
 /* Image & Image Subtitles*/
@@ -55,8 +55,10 @@ p {
   right: 12px !important;
 }
 
-
-
+.portfolio-nav{
+  position: sticky;
+  top: 70px;
+}
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
@@ -107,10 +109,11 @@ p {
   padding: 0;
 }
 
-h4 {
-  padding-top: 20px;
+@media (min-width: 1400px) {
+  h1{
+    padding-top: 50px;
+  }
 }
-
 
 @media (max-width: 1400px) {
   .portfolio-info h4, .portfolio-info p{

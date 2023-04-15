@@ -66,7 +66,8 @@
   }
   
   .portfolio .portfolio-item .portfolio-info .preview-link,
-  .portfolio .portfolio-item .portfolio-info .details-link {
+  .portfolio .portfolio-item .portfolio-info .details-link,
+  .portfolio .portfolio-item .portfolio-info .personal-link {
     position: absolute;
     right: 40px;
     font-size: 24px;
@@ -76,11 +77,13 @@
   }
   
   .portfolio .portfolio-item .portfolio-info .preview-link:hover,
-  .portfolio .portfolio-item .portfolio-info .details-link:hover {
+  .portfolio .portfolio-item .portfolio-info .details-link:hover,
+  .portfolio .portfolio-item .portfolio-info .personal-link:hover {
     color: #ffc041;
   }
   
-  .portfolio .portfolio-item .portfolio-info .details-link {
+  .portfolio .portfolio-item .portfolio-info .details-link,
+  .portfolio .portfolio-item .portfolio-info .personal-link {
     right: 10px;
   }
   
