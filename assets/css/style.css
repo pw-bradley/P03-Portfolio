@@ -327,6 +327,9 @@ section {
 }
 
 
+/*--------------------------------------------------------------
+# Style Sheet
+--------------------------------------------------------------*/
 .headings {
   font-family: "Raleway", sans-serif;
   color: #3b434a !important;
@@ -334,4 +337,20 @@ section {
 .font-example {
   font-weight: bold;
   font-size: 3em;
+}
+
+.raleway{
+  font-family: "Raleway", sans-serif;
+}
+
+.opensans{
+  font-family: "Open Sans", sans-serif;
+}
+
+.example-headings h1{
+  margin-top: 0;
+}
+.example-para{
+  margin: 20px;
+  text-align: left;
 }
