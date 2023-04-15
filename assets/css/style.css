@@ -14,14 +14,13 @@ body {
   color: #444444;
 }
 
-
 a {
-  color: #ffb727;
+  color: #ae6cc0;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffc85a;
+  color: #e6a8f7;
   text-decoration: none;
 }
 
@@ -35,7 +34,7 @@ h1{
   padding-top: 10px;
 }
 h4{
-  color: purple;
+  color: #ae6cc0 ;
   font-size: 1.2em;
 }
 br {
@@ -58,7 +57,7 @@ img {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffb727;
+  background: #6fdeb6;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -72,7 +71,7 @@ img {
 }
 
 .back-to-top:hover {
-  background: #ffc550;
+  background: #aaead3;
   color: #fff;
 }
 
@@ -98,32 +97,6 @@ img {
 #header.header-scrolled {
   height: 60px;
   background: rgba(25, 28, 31, 0.8);
-}
-
-/*--------------------------------------------------------------
-# Basic Shapes
---------------------------------------------------------------*/
-.triangle, .circle, .square {
-  min-height: 1em;
-  min-width: 1em;
-  max-height: 3em;
-  max-width: 3em;
-  height: 0;
-  width: 5%;
-}
-.triangle {
-  width: 0;
-	height: 0;
-	border-left: 1.5vw solid transparent;
-	border-right: 1.5vw solid transparent;
-	border-bottom: 3vw solid purple;
-}
-.circle {
-  background-color: teal;
-  border-radius: 50%;
-}
-.square {
-  background-color:orange;
 }
 
 
@@ -323,7 +296,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ffb727;
+  background: #ae6cc0 ;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -336,7 +309,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #f3a200;
+  background: #e6a8f7;
   color: #fff;
   text-decoration: none;
 }

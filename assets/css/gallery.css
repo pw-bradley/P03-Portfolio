@@ -23,8 +23,8 @@
   
   .portfolio #portfolio-flters li:hover,
   .portfolio #portfolio-flters li.filter-active {
-    color: #f3a200;
-    border-color: #ffb727;
+    color: #ae6cc0;
+    border-color: #e6a8f7;
   }
   
   .portfolio .portfolio-item {
@@ -79,7 +79,7 @@
   .portfolio .portfolio-item .portfolio-info .preview-link:hover,
   .portfolio .portfolio-item .portfolio-info .details-link:hover,
   .portfolio .portfolio-item .portfolio-info .personal-link:hover {
-    color: #ffc041;
+    color: #ae6cc0;
   }
   
   .portfolio .portfolio-item .portfolio-info .details-link,

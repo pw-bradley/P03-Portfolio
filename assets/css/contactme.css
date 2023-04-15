@@ -10,10 +10,10 @@
 
 .contact .info-box i.bx {
     font-size: 24px;
-    color: #ffb727;
+    color: #6fdeb6;
     border-radius: 50%;
     padding: 15px;
-    background: #fff6e4;
+    background: #e9f7f2;
 }
 
 .contact .info-box h3 {
@@ -50,8 +50,8 @@
 
 .contact .social-links a:hover {
     color: #fff;
-    border-color: #ffb727;
-    background: #ffb727;
+    border-color: #6fdeb6;
+    background: #aaead3;
 }
 
 .contact .php-email-form {
