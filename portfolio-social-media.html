@@ -19,6 +19,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/navigation.css" rel="stylesheet">
+  <link href="assets/css/gallery.css" rel="stylesheet">
   <link href="assets/css/portfolio.css" rel="stylesheet">
 
 </head>
@@ -26,16 +27,21 @@
 
 <body>
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex justify-content-center align-items-center ">
+  <header id="header" class="fixed-top d-flex justify-content-center align-items-center">
     <nav id="navbar" class="navbar">
       <ul>
         <li><a class="nav-link scrollto " href="index.html">Home</a></li>
         <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-        <li><a class="nav-link scrollto " href="index.html#portfolio">Portfolio</a></li>
+        <li class="dropdown"><a href="index.html#portfolio"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="portfolio-social-media.html">2023 Skoden Indigenous Film Festival</a></li>
+            <li><a href="portfolio-visual-novel.html">Visual Novel Game</a></li>
+            <li><a href="portfolio-personal.html">Personal Work</a></li>
+          </ul>
+        </li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav><!-- .navbar -->
-
+    </nav>
   </header><!-- End Header -->
 
   <main id="main">
@@ -44,10 +50,9 @@
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
         <div class="row gy-4">
-          <h1 class="portfolio-title">SIFF Social Media Posts</h1>
+          <h1 class="portfolio-title">2023 SIFF Social Media Posts</h1>
           <div class="col-lg-4 portfolio-column">
             
-
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
@@ -245,8 +250,48 @@
               </p>
             </section>
 
+            <!-- ======= Other Work ======= -->
+            <section id="portfolio" class="portfolio">
+              <h3>Other Projects</h3>  
+
+              <div class="row portfolio-container">
+
+                <!-- VISUAL NOVEL -->
+                <div class="col-lg-4 col-md-6 portfolio-item filter-art">
+                  <div class="portfolio-img">
+                    <a href="portfolio-visual-novel.html" class="link-fluid">
+                      <img src="assets/img/vn/vn_crop.png" class="img-fluid" alt="">
+                    </a>
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Visual Novel Game</h4>
+                    <p>Concept Art, Illustrations, Writing</p>
+                  </div>
+                </div>
+              
+                <!-- ARTS -->
+                <div class="col-lg-4 col-md-6 portfolio-item filter-art">
+                  <div class="portfolio-img">
+                    <a href="portfolio-personal.html" class="link-fluid">
+                      <img src="assets/img/personal/personal_crop.png" class="img-fluid" alt="">
+                    </a>
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Personal Work</h4>
+                    <p>Concept Art, Illustrations, Pixel Art</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Other Work -->
+            
           </div>
         </div>
+
+
+
+
+        
       </div>
     </section><!-- End Portfolio Details Section -->
 
@@ -259,6 +304,7 @@
       <div class="col-md-12">
         <div class="info-box">
           <div class="social-links">
+            <a href ="mailto:percival.w.bradley@gmail.com"><i class="bx bx-envelope"></i></a>
             <a href="https://www.instagram.com/crowoats/" class="instagram"><i class="bi bi-instagram"></i></a>
             <a href="https://www.linkedin.com/in/percy-bradley-56721328b/#" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>

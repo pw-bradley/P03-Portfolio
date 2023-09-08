@@ -28,16 +28,21 @@
 
 <body>
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex justify-content-center align-items-center ">
+  <header id="header" class="fixed-top d-flex justify-content-center align-items-center">
     <nav id="navbar" class="navbar">
       <ul>
         <li><a class="nav-link scrollto " href="index.html">Home</a></li>
         <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-        <li><a class="nav-link scrollto " href="index.html#portfolio">Portfolio</a></li>
+        <li class="dropdown"><a href="index.html#portfolio"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="portfolio-social-media.html">2023 Skoden Indigenous Film Festival</a></li>
+            <li><a href="portfolio-visual-novel.html">Visual Novel Game</a></li>
+            <li><a href="portfolio-personal.html">Personal Work</a></li>
+          </ul>
+        </li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav><!-- .navbar -->
-
+    </nav>
   </header><!-- End Header -->
 
 
@@ -55,90 +60,102 @@
           <li data-filter=".filter-pixel">Pixel Art</li>
         </ul>
 
+        <!--Radio Img -->
         <div class="row portfolio-container">
           <div class="col-lg-4 col-md-6 portfolio-item filter-pixel">
-            <div class="portfolio-img"><img src="assets/img/personal/radio.gif" class="img-fluid" alt=""></div>
+            <div class="portfolio-img">
+              <a href="assets/img/personal/radio.gif" data-gallery="portfolioGallery" class="portfolio-lightbox link-fluid" title="Character Comission - 2023 Pixel Art">
+                <img src="assets/img/personal/radio.gif" class="img-fluid" alt="">
+              </a>
+            </div>
             <div class="portfolio-info">
               <h4>Character Comission</h4>
               <p>2023 Pixel Art</p>
-              <a href="assets/img/personal/radio.gif" data-gallery="portfolioGallery" class="portfolio-lightbox personal-link" title="Character Comission - 2023 Pixel Art"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
+          <!--Sunflower Img -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-illustration">
-            <div class="portfolio-img"><img src="assets/img/personal/sunflowers.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-img">
+              <a href="assets/img/personal/sunflowers.png" data-gallery="portfolioGallery" class="portfolio-lightbox link-fluid" title="Sunflowers - 2019 Illustration">
+                <img src="assets/img/personal/sunflowers.png" class="img-fluid" alt="">
+              </a>
+            </div>
             <div class="portfolio-info">
               <h4>Sunflowers</h4>
               <p>2019 Illustration</p>
-              <a href="assets/img/personal/sunflowers.png" data-gallery="portfolioGallery" class="portfolio-lightbox personal-link" title="Sunflowers - Illustration 2019"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
+          <!--Night Sky Img -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-pixel">
-            <div class="portfolio-img"><img src="assets/img/personal/sky.gif" class="img-fluid" alt=""></div>
+            <div class="portfolio-img">
+              <a href="assets/img/personal/sky.gif" data-gallery="portfolioGallery" class="portfolio-lightbox link-fluid" title="Night Sky - 2021 Pixel Art">
+                <img src="assets/img/personal/sky.gif" class="img-fluid" alt="">
+              </a>
+            </div>
             <div class="portfolio-info">
               <h4>Night Sky</h4>
               <p>2021 Environment Pixel Art</p>
-              <a href="assets/img/personal/sky.gif" data-gallery="portfolioGallery" class="portfolio-lightbox personal-link " title="Night Sky - 2021 Environment Pixel Art"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
+          <!-- Tama Img -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-illustration">
-            <div class="portfolio-img"><img src="assets/img/personal/strawberry.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Strawberry</h4>
-              <p>2019 Illustration</p>
-              <a href="assets/img/personal/strawberry.png" data-gallery="portfolioGallery" class="portfolio-lightbox personal-link " title="Strawberry - 2019 Illustration"><i class="bx bx-plus"></i></a>
+            <div class="portfolio-img">
+              <a href="assets/img/personal/tama.png" data-gallery="portfolioGallery" class="portfolio-lightbox link-fluid" title="Tama - 2018 Illustration">
+                <img src="assets/img/personal/tama.png" class="img-fluid" alt="">
+              </a>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-illustration">
-            <div class="portfolio-img"><img src="assets/img/personal/specter.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Specter</h4>
-              <p>2018 Illustration</p>
-              <a href="assets/img/personal/specter.png" data-gallery="portfolioGallery" class="portfolio-lightbox personal-link " title="Specter - 2018 Illustration"><i class="bx bx-plus"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-illustration">
-            <div class="portfolio-img"><img src="assets/img/personal/tama.png" class="img-fluid" alt=""></div>
             <div class="portfolio-info">
               <h4>Tama</h4>
               <p>2018 Illustration</p>
-              <a href="assets/img/personal/tama.png" data-gallery="portfolioGallery" class="portfolio-lightbox personal-link" title="Tama - 2018 Illustration"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
+          <!-- Mia Img -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-pixel">
-            <div class="portfolio-img"><img src="assets/img/personal/mia.gif" class="img-fluid" alt=""></div>
+            <div class="portfolio-img">
+              <a href="assets/img/personal/mia.gif" data-gallery="portfolioGallery" class="portfolio-lightbox link-fluid" title="Character Comission - 2021 Pixel Art">
+                <img src="assets/img/personal/mia.gif" class="img-fluid" alt="">
+              </a>
+            </div>
             <div class="portfolio-info">
-              <h4>Mia</h4>
-              <p>2021 Pixel Art Comission</p>
-              <a href="assets/img/personal/mia.gif" data-gallery="portfolioGallery" class="portfolio-lightbox personal-link" title="Mia - 2021 Pixel Art Comission"><i class="bx bx-plus"></i></a>
+              <h4>Character Comission</h4>
+              <p>2021 Pixel Art</p>
             </div>
           </div>
-
+          
+          <!-- Ghost Img -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-illustration">
-            <div class="portfolio-img"><img src="assets/img/personal/ghosty.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-img">
+              <a href="assets/img/personal/ghosty.png" data-gallery="portfolioGallery" class="portfolio-lightbox link-fluid" title="Ghosty - 2018 Illustration">
+                <img src="assets/img/personal/ghosty.png" class="img-fluid" alt="">
+              </a>
+            </div>
             <div class="portfolio-info">
               <h4>Ghosty</h4>
               <p>2018 Illustration</p>
-              <a href="assets/img/personal/ghosty.png" data-gallery="portfolioGallery" class="portfolio-lightbox personal-link" title="Ghosty - 2018 Illustration"><i class="bx bx-plus"></i></a>
             </div>
           </div>
 
+          <!-- Bounce -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-pixel">
-            <div class="portfolio-img"><img src="assets/img/personal/boing.gif" class="img-fluid" alt=""></div>
+            <div class="portfolio-img">
+              <a href="assets/img/personal/boing.gif" data-gallery="portfolioGallery" class="portfolio-lightbox link-fluid" title="Bounce - 2020 Pixel Art">
+                <img src="assets/img/personal/boing.gif" class="img-fluid" alt="">
+              </a>
+            </div>
             <div class="portfolio-info">
               <h4>Bounce</h4>
               <p>2020 Pixel Art</p>
-              <a href="assets/img/personal/boing.gif" data-gallery="portfolioGallery" class="portfolio-lightbox personal-link" title="Bounce - 2020 Pixel Art"><i class="bx bx-plus"></i></a>
             </div>
           </div>
+
         </div>
       </div>
     </section><!-- End My Portfolio Section -->
+
   </main><!-- End #main -->
 
 
@@ -148,6 +165,7 @@
       <div class="col-md-12">
         <div class="info-box">
           <div class="social-links">
+            <a href ="mailto:percival.w.bradley@gmail.com"><i class="bx bx-envelope"></i></a>
             <a href="https://www.instagram.com/crowoats/" class="instagram"><i class="bi bi-instagram"></i></a>
             <a href="https://www.linkedin.com/in/percy-bradley-56721328b/#" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>

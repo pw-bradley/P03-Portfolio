@@ -83,7 +83,7 @@
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: #6fdeb6;
+    color: #ae6cc0;
   }
   
   .navbar .dropdown:hover>ul {
@@ -179,7 +179,7 @@
   .navbar-mobile a:hover,
   .navbar-mobile .active,
   .navbar-mobile li:hover>a {
-    color: #6fdeb6;
+    color: #ae6cc0;;
   }
   
   .navbar-mobile .getstarted,
@@ -214,7 +214,7 @@
   .navbar-mobile .dropdown ul a:hover,
   .navbar-mobile .dropdown ul .active:hover,
   .navbar-mobile .dropdown ul li:hover>a {
-    color: #6fdeb6;
+    color: #ae6cc0;
   }
   
   .navbar-mobile .dropdown>.dropdown-active {

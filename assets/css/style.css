@@ -17,6 +17,7 @@ body {
 a {
   color: #ae6cc0;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 a:hover {
@@ -311,7 +312,6 @@ section {
   text-align: center;
   width: 36px;
   height: 36px;
-  transition: 0.3s;
 }
 
 #footer .social-links a:hover {

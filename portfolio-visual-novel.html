@@ -19,6 +19,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/navigation.css" rel="stylesheet">
+  <link href="assets/css/gallery.css" rel="stylesheet">
   <link href="assets/css/portfolio.css" rel="stylesheet">
 
 </head>
@@ -26,16 +27,21 @@
 
 <body>
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex justify-content-center align-items-center ">
+  <header id="header" class="fixed-top d-flex justify-content-center align-items-center">
     <nav id="navbar" class="navbar">
       <ul>
         <li><a class="nav-link scrollto " href="index.html">Home</a></li>
         <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-        <li><a class="nav-link scrollto " href="index.html#portfolio">Portfolio</a></li>
+        <li class="dropdown"><a href="index.html#portfolio"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="portfolio-social-media.html">2023 Skoden Indigenous Film Festival</a></li>
+            <li><a href="portfolio-visual-novel.html">Visual Novel Game</a></li>
+            <li><a href="portfolio-personal.html">Personal Work</a></li>
+          </ul>
+        </li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav><!-- .navbar -->
-
+    </nav>
   </header><!-- End Header -->
 
 
@@ -238,6 +244,41 @@
                 This was a project filled with a lot of passion that I wasn't just making with my fellow classmates, but my good friends. When it came to illustrating the characters I was a bit worried about differing their likenesses. If I had to do the project again I would love to experiement more with character's shape language to help better protray their personalities visually. Likewise I'd want to redraw the portraits to be more detailed and have differing poses to better protray emotion in scenes.
               </p>
             </section>
+
+            <!-- ======= Other Work ======= -->
+            <section id="portfolio" class="portfolio">
+              <h3>Other Projects</h3>  
+
+              <div class="row portfolio-container">
+
+                <!-- SKODEN -->
+                <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+                  <div class="portfolio-img">
+                    <a href="portfolio-social-media.html" class="link-fluid">
+                      <img src="assets/img/skoden/skoden_crop.png" class="img-fluid" alt="">
+                    </a>
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Skoden Indigenous Film Festival</h4>
+                    <p>Social Media Design</p>
+                  </div>
+                </div>
+              
+                <!-- ARTS -->
+                <div class="col-lg-4 col-md-6 portfolio-item filter-art">
+                  <div class="portfolio-img">
+                    <a href="portfolio-personal.html" class="link-fluid">
+                      <img src="assets/img/personal/personal_crop.png" class="img-fluid" alt="">
+                    </a>
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Personal Work</h4>
+                    <p>Concept Art, Illustrations, Pixel Art</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- End Other Work -->
           </div>
         </div>
       </div>
@@ -251,6 +292,7 @@
       <div class="col-md-12">
         <div class="info-box">
           <div class="social-links">
+            <a href ="mailto:percival.w.bradley@gmail.com"><i class="bx bx-envelope"></i></a>
             <a href="https://www.instagram.com/crowoats/" class="instagram"><i class="bi bi-instagram"></i></a>
             <a href="https://www.linkedin.com/in/percy-bradley-56721328b/#" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
