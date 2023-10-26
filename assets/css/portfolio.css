@@ -31,7 +31,7 @@
 }
 
 .preview-link:hover, .personal-link:hover {
-  color: #ffc041;
+  color: #7A83A3;
 }
 /* Image & Image Subtitles*/
 
@@ -63,7 +63,7 @@ p {
   top: 70px;
 }
 .portfolio-nav .nav-link:hover{
-  color: #ae6cc0;
+  color: #7A83A3;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
@@ -71,11 +71,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ffb727;
+  border: 1px solid #FFB687;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffb727;
+  background-color: #FFB687;
 }
 
 .portfolio-details .portfolio-info , .portfolio-details .portfolio-nav{
