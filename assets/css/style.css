@@ -72,7 +72,7 @@ img {
 }
 
 .back-to-top:hover {
-  background:#7A83A3;
+  background:#5a6184;
   color: #fff;
 }
 
@@ -315,7 +315,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #6D7495;
+  background: #5a6184;
   color: #fff;
   text-decoration: none;
 }
