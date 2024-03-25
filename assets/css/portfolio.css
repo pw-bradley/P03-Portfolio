@@ -31,7 +31,7 @@
 }
 
 .preview-link:hover, .personal-link:hover {
-  color: #6B928F;
+  color: #7A83A3;
 }
 /* Image & Image Subtitles*/
 
@@ -63,7 +63,7 @@ p {
   top: 70px;
 }
 .portfolio-nav .nav-link:hover{
-  color: #6B928F;
+  color: #7A83A3;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {

@@ -3,7 +3,6 @@
 --------------------------------------------------------------*/
 #profile.img{
   padding: 12px;
-  
 }
 
 .about .content h3 {
@@ -127,7 +126,8 @@
 
 
   @media (max-width: 1000px) {
-    .img-spacer{
-      margin-bottom: 2em;
+    .about p {
+      padding-top: 2em;
+      padding-bottom: 2em;
     }
   }
