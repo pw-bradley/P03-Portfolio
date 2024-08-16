@@ -1,9 +1,35 @@
+/* Navigation Menu */
+
+
 /*--------------------------------------------------------------
-# Navigation Menu
+# Header
 --------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
+  #header.header-transparent h1{
+    opacity: 0;
+  }
+  
+  #header.header-scrolled h1{
+    opacity: 1;
+  }
+
+  #header .logo a {
+    color: #fff !important;
+  }
+  #header .logo a:hover {
+    color: #FFB687 !important;
+  }
+  
+
+  #header .logo h1{
+    font-size: 20px;
+    padding-top: 0;
+    margin: 0;
+    
+  }
+
+/*--------------------------------------------------------------
+# Desktop Navigation
+--------------------------------------------------------------*/
   .navbar {
     padding: 0;
   }
@@ -29,22 +55,21 @@
     color: #fff;
     white-space: nowrap;
     transition: 0.3s;
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
   }
   
   .navbar a i,
   .navbar a:focus i {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 0;
     margin-left: 5px;
   }
 
   a:hover {
-    color:#f3824d;
+    color:#6B928F;
   }
 
  .navbar .active,.navbar .active:focus,.navbar li:hover>a {
@@ -119,9 +144,9 @@
     }
   }
   
-  /**
-  * Mobile Navigation 
-  */
+/*--------------------------------------------------------------
+# Mobile Navigation
+--------------------------------------------------------------*/
   .mobile-nav-toggle {
     color: #fff;
     font-size: 28px;
@@ -178,12 +203,15 @@
     padding: 10px 20px;
     font-size: 14px;
     color: #3b434a;
+    margin: 0;
+    background-color: transparent;
   }
-  
+
   .navbar-mobile a:hover,
   .navbar-mobile .active,
   .navbar-mobile li:hover>a {
     color: #FFB687;
+    background-color: transparent;
   }
   
   .navbar-mobile .getstarted,

@@ -1,0 +1,140 @@
+/* Projects */
+
+/*--------------------------------------------------------------
+# Wrappers and Groups
+--------------------------------------------------------------*/
+  .portfolio-group{ /* Contains entirety of a Project */
+    border-radius: 10px;
+    flex: 1;
+  }
+
+  .portfolio-group:hover{
+    box-shadow: 0px 0 10px rgba(59, 67, 74, 0.5);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .red{
+    background-color: #C15151;
+    color: #C15151;
+  }
+  .yellow{
+    background-color: #E57C60;
+    color: #E57C60;
+  }
+  .green{
+    background-color: #699b74;
+    color: #699b74;
+  }
+  .blue{
+    background-color: #70A3A3;
+    color: #70A3A3;
+  }
+  .purple{
+    background-color: #9684bf;
+    color: #9684bf;
+  }
+
+/*--------------------------------------------------------------
+# Image and Card Tags
+--------------------------------------------------------------*/
+  .portfolio-details-slider{
+    width: 80%;
+    max-width: 450px;
+  }
+  .card-tag-wrapper{
+    margin-left: auto; 
+    display: flex;
+    gap: 0.5em;
+  }
+
+  .swiper-wrapper{
+    border-radius: 10px;
+  }
+
+  .portfolio-img, .portfolio-details .portfolio-details-slider .swiper-pagination, .colour {
+    position: relative; /* Makes tags stay with image */
+  }
+
+  .card-tag-mobile, .card-tag-mini{
+    background: rgba(255, 255, 255, 0.85);
+  }
+  .card-tag-desktop{
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+/*--------------------------------------------------------------
+# Text
+--------------------------------------------------------------*/
+  .project-info{ /* Contains all text of a Project */
+    left: 12px;
+    right: 12px;
+    color: #fff;
+    padding: 0.4em 1em 1em 1em;
+  }
+
+  .project-info p{
+    padding: 0.5em 0;
+    margin: 0;
+  }
+
+  .project-info h4{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+
+  .portfolio-title-box { /* contains title and tags (while in desktop mode) */
+    padding-top: 0.5em;
+    display: flex;
+    align-items: flex-end;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 1em;
+    padding-bottom: 10px;
+  }
+
+/*--------------------------------------------------------------
+# Line and Card Tags
+--------------------------------------------------------------*/
+  .portfolio-hr{
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgba(255,255,255,.5);
+  }
+
+  .card-tag-mini, .card-tag-mobile, .card-tag-desktop{
+    padding: 0 0.5em;
+    text-align: center;
+    
+    color: #3F3F3F;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .mobile-card-tag-wrapper, .mini-card-tag-wrapper{
+    position: absolute;
+    bottom: 10px; right: 10px;
+  }
+
+  .icon{
+    padding-right: 5px;
+  }
+
+  /*When screen is big do something */
+  @media (max-width: 1199px) {
+    .desktop-card-tag-wrapper{
+      display: none;
+    }
+
+  }
+  /*When screen is big do something */
+  @media (min-width: 1200px) {
+    .mobile-card-tag-wrapper{
+      display: none;
+    }
+  }

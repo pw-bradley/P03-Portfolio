@@ -1,0 +1,116 @@
+/*--------------------------------------------------------------
+# Container
+--------------------------------------------------------------*/
+.about-container {
+  position: relative;
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Image
+--------------------------------------------------------------*/
+#profile.img{
+  padding: 12px;
+}
+
+.about .image {
+  background: url("../img/profile.png") center center no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  border-radius: 10px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+@media (max-width: 991px) { 
+  .about-desktop{
+    display: none; /*When screen is small don't show desktop header*/
+  }
+}
+@media (min-width: 992px) {
+  .about-mobile{
+    display: none; /*When screen is big do not show mobile header*/
+  }
+}
+
+/*--------------------------------------------------------------
+# Body Text
+--------------------------------------------------------------*/
+#about p {
+  padding: 15px 0 3.5em 0;
+}
+
+@media (max-width: 1024px) {
+  #about p {
+    padding-bottom: 15px; /*When screen small move resume button closer to body*/
+  }
+}
+
+
+hr {
+  border: 1px solid #e67f5334;
+}
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+  /*
+  Main        - #759D83 - #E57C60 - #E38A64
+  Main Hover  - #89b398 - #f79277  
+  Light Hover - #e6f5eb - #fae0d4
+  */
+
+  #about-resume-btn {
+    background: #5b8aa3;
+    border: 0;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 10px;
+  }
+  #about-resume-btn:hover {
+    background-color: #699eb3;
+  }
+
+  /* Link Buttons */
+  #link-btn {
+    background:white;
+    color: #E57C60
+  }
+
+  #link-btn:hover {
+    background-color: #fae0d4!important;
+  }
+
+  .nav-link:hover {
+    color: #fae0d4;
+  }
+
+
+  /* Top Buttons */
+    /* Resume Button */
+    .top-resume-btn, .back-to-top, #footer .social-links a {
+      background-color: #e67f53;
+    }
+
+    /* Hover */
+      /* Button Hover */
+      .top-resume-btn:hover, .back-to-top:hover, .social-links a:hover, #footer .social-links a:hover {
+        background-color: #f79277;
+      }
+      /* Top Links Hover (Name, Links) */
+      #header .logo a:hover, #header .navbar .active,.navbar .active:focus,.navbar li:hover>a {
+        color: #fae0d4;
+      }
+      /* Top Links Hover (Name, Links) */
+      #header .logo a:hover {
+        color: #fae0d4 !important;
+      }
+      /* Mobile Links Hover */
+      .navbar-mobile a:hover, .navbar-mobile li:hover>a  {
+        color: #E57C60;
+      }

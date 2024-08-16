@@ -1,143 +1,175 @@
+/* Portfolio Page */
+
 /*--------------------------------------------------------------
-# Portfolio Details
+# Text
 --------------------------------------------------------------*/
-
-.link-fluid {
- display: inline-block;
-}
-
-
-/* Image & Image Subtitles*/
-.img-description {
-  background: rgba(25, 28, 31, 0.8);
-  padding: 0 10px 0 15px;
-  margin: auto;
-  display: flex;
-  margin-bottom: 1em;
-}
-.description-text {
-  color: white;
-  font-size: 0.8em;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.preview-link, .personal-link {
-  font-size: 24px;
-  color: white;
-  transition: 0.3s;
-  margin-left: auto;
-  font-size: 36px;
-}
-
-.preview-link:hover, .personal-link:hover {
-  color: #7A83A3;
-}
-/* Image & Image Subtitles*/
-
-
-.portfolio-details {
-  padding-top: 90px;
-}
-
-.portfolio-img, .portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
-
-.portfolio-img, .portfolio-details .portfolio-details-slider .swiper-pagination, .colour {
-  position: relative;
-  margin-top: 15px;
-}
-
-p {
-  margin: 0;
-}
-
-.portfolio-info{
-  left: 12px !important;
-  right: 12px !important;
-}
-
-.portfolio-nav{
-  position: sticky;
-  top: 70px;
-}
-.portfolio-nav .nav-link:hover{
-  color: #7A83A3;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #FFB687;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #FFB687;
-}
-
-.portfolio-details .portfolio-info , .portfolio-details .portfolio-nav{
-  padding: 30px;
-  box-shadow: 0px 0 5px rgba(59, 67, 74, 0.08);
-}
-
-.portfolio-details .portfolio-info h3, .portfolio-details .portfolio-nav h3{
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-
-.portfolio-details .portfolio-info ul, .portfolio-details .portfolio-nav ul{
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li+li, .portfolio-details .portfolio-nav ul li+li{
-  margin-top: 10px;
-}
-
-.portfolio-details .portfolio-description {
-  padding-top: 30px;
-}
-
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-description p {
-  padding: 0;
-}
-
-h1{
-  margin-top: 50px;
-}
-
-h3{
-  margin-top: 0.5em;
-}
-
-.milestone {
-  margin-top: 1em;
-}
-
-.swiper-wrapper {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-
-@media (max-width: 991px) {
+  p {
+    margin: 0;
+  }
   h1{
-    text-align: center;
+    margin-top: 50px;
+    padding-top: 0;
   }
+  .porftolio-info h3 {
+    padding-bottom: 0;
+  }
+  .category {
+    margin-top: 0.5em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  section {
+    padding: 0 0 1em 0;
+  }
+
+/*--------------------------------------------------------------
+# Info
+--------------------------------------------------------------*/
+  .portfolio-info, .portfolio-nav {
+    border-radius: 10px;
+    margin-bottom: 1em;
+    margin-right: 1em;
+  }
+
+  .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #FFB687;
+  }
+
+  .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #FFB687;
+  }
+
+  .portfolio-details .portfolio-info, .portfolio-details .portfolio-nav{
+    padding: 1.5em;
+    box-shadow: 0px 0 5px rgba(59, 67, 74, 0.08);
+  }
+
+  .portfolio-details .portfolio-info h3, .portfolio-details .portfolio-nav h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .portfolio-details .portfolio-info ul, .portfolio-details .portfolio-nav ul{
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+  }
+
+  .img, .img-small, .portfolio-details .portfolio-info ul li+li, .portfolio-details .portfolio-nav ul li+li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .img:hover, .img-small:hover{
+    box-shadow: 0px 0 10px rgba(59, 67, 74, 0.5);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .portfolio-details .portfolio-description {
+    padding-top: 30px;
+  }
+
+  .portfolio-details .portfolio-description h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .portfolio-details .portfolio-description p {
+    padding: 0;
+  }
+
+  .portfolio-details { /* Padding at top to be below navbar*/
+    padding-top: 40px;
+  }
+  
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
   .portfolio-nav{
-    display: none;
+    position: sticky;
+    top: 70px;
   }
+  .portfolio-nav .nav-link:hover{
+    color:rgba(255,255,255, 0.7);
+  }
+
+  @media (max-width: 991px) {
+    .portfolio-info{
+      margin-right: 0;
+    }
+    .portfolio-nav{
+      display: none;
+    }
+  }
+
+/*--------------------------------------------------------------
+# Image Gallery
+--------------------------------------------------------------*/
+  .img-small{
+    width: 60%;
+    min-width: 400px;
+    border-radius: 10px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .img-description { /* Image Description Grey Box*/
+    padding: 0 2px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 1em;
+  }
+  .description-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 0.9em;
+    margin-right: auto;
+  }
+  .preview-link, .personal-link { /*+ Icon to see larger image*/
+    font-size: 24px;
+    color: white;
+    transition: 0.3s;
+    margin-left: auto;
+    font-size: 36px;
+  }
+
+  .img, .portfolio-img, .portfolio-details .portfolio-details-slider img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .img, .portfolio-img, .img-small, .portfolio-details .portfolio-details-slider .swiper-pagination, .colour { /*Gallery Swiper Navigation*/
+    position: relative;
+  }
+
+  .swiper-wrapper {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .swiper-slide{
+    border-radius: 10px;
+  }
+  
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+#link-btn {
+  width: 100%;
+  padding: 10px 0;
+
+  transition: 0.4s;
+  border-radius: 10px;
+  display: block;
 }

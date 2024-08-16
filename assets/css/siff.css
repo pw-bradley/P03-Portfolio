@@ -1,0 +1,81 @@
+/* Portfolio Page */
+
+/*--------------------------------------------------------------
+# Image Background / Container
+--------------------------------------------------------------*/
+#hero { /* Background Image */
+  background: url("../img/skoden/skoden-bg.png") center;
+}
+
+/*--------------------------------------------------------------
+# Text
+--------------------------------------------------------------*/
+  .category {
+    color: #70A3A3;
+  }
+  .portfolio-info, .portfolio-nav {
+    color: white;
+    background-color: #70A3A3;
+  }
+  
+  .portfolio-details-slider{
+    border-radius: 10px;
+  }
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+/*
+Main        - #70A3A3
+Main Hover  - #88bdbd
+Light Hover - #dff2f2
+*/
+
+  /* Link Buttons */
+    #link-btn {
+      background:white;
+      color: #70A3A3;
+    }
+
+    #link-btn:hover {
+      background-color: #dff2f2 !important;
+    }
+
+    .nav-link:hover {
+      color: #dff2f2;
+    }
+
+
+  /* Top Buttons */
+    /* Resume Button */
+    .top-resume-btn, .back-to-top, #footer .social-links a {
+      background-color: #70A3A3;
+    }
+
+    /* Hover */
+      /* Button Hover */
+      .top-resume-btn:hover, .back-to-top:hover, .social-links a:hover, #footer .social-links a:hover {
+        background-color: #88bdbd;
+      }
+      /* Top Links Hover (Name, Links) */
+      #header .logo a:hover, #header .navbar .active,.navbar .active:focus,.navbar li:hover>a {
+        color: #dff2f2;
+      }
+      /* Top Links Hover (Name, Links) */
+      #header .logo a:hover {
+        color: #dff2f2 !important;
+      }
+      /* Mobile Links Hover */
+      .navbar-mobile a:hover, .navbar-mobile li:hover>a  {
+        color: #70A3A3;
+      }
+
+
+
+  /* Slider Buttons */
+    .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet, .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active  {
+      border-color: #88bdbd;
+    }
+    .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+      background-color: #88bdbd;
+    }

@@ -1,0 +1,71 @@
+/* Portfolio Page */
+
+/*--------------------------------------------------------------
+# Image Background / Container
+--------------------------------------------------------------*/
+#hero { /* Background Image */
+  background: url("../img/vilca/vilca-bg.png") center;
+}
+
+/*--------------------------------------------------------------
+# Text
+--------------------------------------------------------------*/
+  .category {
+    color: #699b74;
+  }
+  .portfolio-info, .portfolio-nav {
+    color: white;
+    background-color: #699b74;
+  }
+  
+  .portfolio-details-slider{
+    border-radius: 50px;
+  }
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+/*
+Main        - #759D83 - #699b74
+Main Hover  - #
+Light Hover - #e6f5eb
+*/
+
+  /* Link Buttons */
+  #link-btn {
+    background:white;
+    color: #699b74;
+  }
+
+  #link-btn:hover {
+    background-color: #e6f5eb !important;
+  }
+
+  .nav-link:hover {
+    color: #e6f5eb;
+  }
+
+
+/* Top Buttons */
+  /* Resume Button */
+  .top-resume-btn, .back-to-top, #footer .social-links a {
+    background-color: #699b74;
+  }
+
+  /* Hover */
+    /* Button Hover */
+    .top-resume-btn:hover, .back-to-top:hover, .social-links a:hover, #footer .social-links a:hover {
+      background-color: #82b88d;
+    }
+    /* Top Links Hover (Name, Links) */
+    #header .logo a:hover, #header .navbar .active,.navbar .active:focus,.navbar li:hover>a {
+      color: #e6f5eb;
+    }
+    /* Top Links Hover (Name, Links) */
+    #header .logo a:hover {
+      color: #e6f5eb !important;
+    }
+    /* Mobile Links Hover */
+    .navbar-mobile a:hover, .navbar-mobile li:hover>a  {
+      color: #699b74;
+    }

@@ -1,0 +1,53 @@
+/* Portfolio Page */
+
+.portfolio-img { 
+  border-radius: 10px !important;
+}
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+/*
+Main        - #E57C60 - #9684bf
+Main Hover  - #f79277 - #b0a1da
+Light Hover - #fae0d4 - #cec2ec
+*/
+
+  /* Link Buttons */
+  #link-btn {
+    background:white;
+    color: #9684bf
+  }
+
+  #link-btn:hover {
+    background-color: #fae0d4!important;
+  }
+
+  .nav-link:hover {
+    color: #cec2ec;
+  }
+
+
+/* Top Buttons */
+  /* Resume Button */
+  .top-resume-btn, .back-to-top, #footer .social-links a {
+    background-color: #9684bf;
+  }
+
+  /* Hover */
+    /* Button Hover */
+    .top-resume-btn:hover, .back-to-top:hover, .social-links a:hover, #footer .social-links a:hover {
+      background-color: #b0a1da;
+    }
+    /* Top Links Hover (Name, Links) */
+    #header .logo a:hover, #header .navbar .active,.navbar .active:focus,.navbar li:hover>a {
+      color: #cec2ec;
+    }
+    /* Top Links Hover (Name, Links) */
+    #header .logo a:hover {
+      color: #cec2ec !important;
+    }
+    /* Mobile Links Hover */
+    .navbar-mobile a:hover, .navbar-mobile li:hover>a  {
+      color: #9684bf;
+    }

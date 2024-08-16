@@ -1,0 +1,71 @@
+/* Portfolio Page */
+
+/*--------------------------------------------------------------
+# Image Background / Container
+--------------------------------------------------------------*/
+#hero { /* Background Image */
+  background: url("../img/jester/jester-bg.png") center;
+}
+
+/*--------------------------------------------------------------
+# Text
+--------------------------------------------------------------*/
+.category {
+  color: #C15151;
+}
+.portfolio-info, .portfolio-nav {
+  color: white;
+  background-color: #C15151;
+}
+
+.portfolio-details-slider{
+  border-radius: 50px;
+}
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+/*
+Main        - #C15151
+Main Hover  - #de6a6a
+Light Hover - #f2dada
+*/
+
+  /* Link Buttons */
+  #link-btn {
+    background:white;
+    color: #C15151;
+  }
+
+  #link-btn:hover {
+    background-color: #f2dada !important;
+  }
+
+  .nav-link:hover {
+    color: #f2dada;
+  }
+
+
+/* Top Buttons */
+  /* Resume Button */
+  .top-resume-btn, .back-to-top, #footer .social-links a {
+    background-color: #C15151;
+  }
+
+  /* Hover */
+    /* Button Hover */
+    .top-resume-btn:hover, .back-to-top:hover, .social-links a:hover, #footer .social-links a:hover {
+      background-color: #de6a6a;
+    }
+    /* Top Links Hover (Name, Links) */
+    #header .logo a:hover, #header .navbar .active,.navbar .active:focus,.navbar li:hover>a {
+      color: #f2dada;
+    }
+    /* Top Links Hover (Name, Links) */
+    #header .logo a:hover {
+      color: #f2dada !important;
+    }
+    /* Mobile Links Hover */
+    .navbar-mobile a:hover, .navbar-mobile li:hover>a  {
+      color: #C15151;
+    }
