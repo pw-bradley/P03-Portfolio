@@ -106,6 +106,15 @@ hr {
       #header .logo a:hover, #header .navbar .active,.navbar .active:focus,.navbar li:hover>a {
         color: #fae0d4;
       }
+      @media (max-width: 991px) { 
+        #header .navbar .active{
+          color: #3b434a;
+        }
+        #header .navbar .active:hover{
+          color: #e67f53;
+        }
+      }
+      
       /* Top Links Hover (Name, Links) */
       #header .logo a:hover {
         color: #fae0d4 !important;
