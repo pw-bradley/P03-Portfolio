@@ -25,7 +25,7 @@
   <link href="assets/css/projects.css" rel="stylesheet">
   <link href="assets/css/hero.css" rel="stylesheet">
   <link href="assets/css/home.css" rel="stylesheet">
-  
+
 </head>
 
 <body>
@@ -44,8 +44,6 @@
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav>
-    
-    
   </header> <!-- End Header -->
 
 
@@ -60,72 +58,181 @@
   </section><!-- End Hero -->
 
   <main id="main">
+    
+    <div class="monster"></div>
+
     <!-- ======= About Me Section ======= -->
-    <section id="about" class="about container">
-      <div class="container">
-        <div class="row">
-          <div class="section-title about-mobile">
-            <h2>About Me</h2>
-          </div>
-          <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start img-spacer" id="profile1.img"></div>
-          <div class="col-lg-8 d-flex flex-column align-items-stretch about-container">
-            <div class="content ps-lg-4 d-flex flex-column justify-content-center">
-              <div class="section-title about-desktop">
-                <h2>About Me</h2>
-              </div>
-              <p>
-                Hello! I'm Percy, a Canadian UI and graphic designer with experience in illustration. I am skilled in creating visually appealing designs for digital and print formats. Accomplished in both design and coding, with notable achievements in crafting aesthetically pleasing and functional websites. I’m looking to grow as a designer and perfect my art prioritizing client satisfaction.<br>
-                I graduated from Simon Fraser University’s School of Interactive Arts and Technology in Fall 2023 with a Bachelor of Arts, Concentration in Media Arts.<br>
-                Beyond my professional pursuits, you'll catch me leading a book club with my friends, drawing, or immersing myself in diverse range of video games, from harrowing dungeon crawlers to cozy farming simulators.
-                <br>
-                I can be contacted at <strong>percival.w.bradley@gmail.com</strong>.
-              </p>
+    <div class="fadein">
+      <section id="about" class="about container">
+        <div class="container">
+          <div class="row">
+            <div class="section-title about-mobile">
+              <h2>About Me</h2>
+            </div>
+            <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start img-spacer" id="profile1.webp"></div>
+            <div class="col-lg-8 d-flex flex-column align-items-stretch about-container">
+              <div class="content ps-lg-4 d-flex flex-column justify-content-center">
+                <div class="section-title about-desktop">
+                  <h2>About Me</h2>
+                </div>
+                <p>
+                  Hello! I'm Percy, a Canadian UI and graphic designer with experience in illustration. I am skilled in creating visually appealing designs for digital and print formats. Accomplished in both design and coding, with notable achievements in crafting aesthetically pleasing and functional websites. I’m looking to grow as a designer and perfect my art prioritizing client satisfaction.<br>
+                  I graduated from Simon Fraser University’s School of Interactive Arts and Technology in Fall 2023 with a Bachelor of Arts, Concentration in Media Arts.<br>
+                  Beyond my professional pursuits, you'll catch me leading a book club with my friends, drawing, or immersing myself in diverse range of video games, from harrowing dungeon crawlers to cozy farming simulators.
+                  <br>
+                  I can be contacted at <strong>percival.w.bradley@gmail.com</strong>.
+                </p>
 
+                
+                <a href ="mailto:percival.w.bradley@gmail.com"></a>
+
+                <a href="assets/PercyBradley-Resume.pdf" target="_blank" id="about-resume-btn" class="text-center">
+                  For more info, please check out my resume
+                </a>
+              </div><!-- End .content-->
               
-              <a href ="mailto:percival.w.bradley@gmail.com"></a>
-
-              <a href="assets/PercyBradley-Resume.pdf" target="_blank" id="about-resume-btn" class="text-center">
-                For more info, please check out my resume
-              </a>
-            </div><!-- End .content-->
-            
+            </div>
           </div>
         </div>
-      </div>
-    </section><!-- End About Me Section -->
+      </section><!-- End About Me Section -->
+    </div>
 
     
     <!-- ======= Projects Section ======= -->
-    <section class="portfolio">   
-      <div id="portfolio" class="container">  
-        <div class="row">
-          <hr>
-          <div class="section-title projects-header">
-            <h2>Projects</h2>      
+    <div class="hideme">
+      <section class="portfolio">   
+        <div id="portfolio" class="container">  
+          <div class="row">
+            <hr>
+            <div class="section-title projects-header">
+              <h2>Projects</h2>      
+            </div>
+
+            <!--
+            <ul id="portfolio-flters" class="d-flex justify-content-center">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-design">Design</li>
+              <li data-filter=".filter-art">Illustration</li>
+            </ul>
+            -->
           </div>
 
-          <!--
-          <ul id="portfolio-flters" class="d-flex justify-content-center">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-design">Design</li>
-            <li data-filter=".filter-art">Illustration</li>
-          </ul>
-          -->
-        </div>
+          <div class="row portfolio-container">
 
-        <div class="row portfolio-container">
+            <!-- 2024 GAME JAM -->
+            <div class="col-lg-6 col-md-6 portfolio-item filter-design filter-art">
+              <a href="jester-jerry.html" class="link-fluid">
+                <div class="portfolio-group red">
+                  <div class="portfolio-img">
+                    <img src="assets/img/jester/jester_crop.png" class="img-fluid" alt="">
+                    <div class="card-tag-wrapper mobile-card-tag-wrapper">
+                      <div class="card-tag-mobile">
+                        <i class="bi bi-ui-checks-grid icon"></i>
+                        UI Design
+                      </div>
+                      <div class="card-tag-mobile">
+                        <i class="bi bi-palette-fill icon"></i>
+                        Illustration
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-info">
+                    <div class="portfolio-title-box">
+                      <h4>Deck-building Game</h4>
+                      <div class="card-tag-wrapper desktop-card-tag-wrapper">
+                        <div class="card-tag-desktop">
+                          <i class="bi bi-ui-checks-grid icon"></i>
+                          UI Design
+                        </div>
+                        <div class="card-tag-desktop">
+                          <i class="bi bi-palette-fill icon"></i>
+                          Illustration
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="portfolio-hr">
+                    <p>Visual assets for the deck-building game created for the 2024 Vancouver Global Game Jam.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
 
-          <!-- 2024 GAME JAM -->
+
+            <!-- VILCA -->
+            <div class="col-lg-6 col-md-6 portfolio-item filter-design filter-art">
+              <a href="vilca.html" class="link-fluid">
+                <div class="portfolio-group green">
+                  <div class="portfolio-img">
+                    <img src="assets/img/vilca/vilca_crop.png" class="img-fluid" alt="">
+                    <div class="card-tag-wrapper mobile-card-tag-wrapper">
+                      <div class="card-tag-mobile">
+                        <i class="bi bi-ui-checks-grid icon"></i>
+                        UX / UI Design
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-info">
+                    <div class="portfolio-title-box">
+                      <h4>Website Development</h4>
+                      <div class="card-tag-wrapper desktop-card-tag-wrapper">
+                        <div class="card-tag-desktop">
+                          <i class="bi bi-ui-checks-grid icon"></i>
+                          UX / UI Design
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="portfolio-hr">
+                    <p>The website redesign and implementation using WordPress for a dog racing association.</p>    
+                  </div>
+                </div>
+              </a>
+            </div>
+
+          <!-- SKODEN -->
           <div class="col-lg-6 col-md-6 portfolio-item filter-design filter-art">
-            <a href="jester-jerry.html" class="link-fluid">
-              <div class="portfolio-group red">
+            <a href="siff.html" class="link-fluid">
+              <div class="portfolio-group blue">
                 <div class="portfolio-img">
-                  <img src="assets/img/jester/jester_crop.png" class="img-fluid" alt="">
+                  <img src="assets/img/skoden/skoden_crop.png" class="img-fluid" alt="">
                   <div class="card-tag-wrapper mobile-card-tag-wrapper">
                     <div class="card-tag-mobile">
-                      <i class="bi bi-ui-checks-grid icon"></i>
-                      UI Design
+                      <i class="bi bi-circle-square icon"></i>
+                      Visual Design
                     </div>
+                    <div class="card-tag-mobile">
+                      <i class="bi bi-person-vcard-fill icon"></i>
+                      Brand Design
+                    </div>
+                  </div>
+                </div>
+                <div class="project-info">
+                  <div class="portfolio-title-box">
+                    <h4>Social Media Branding</h4>
+                    <div class="card-tag-wrapper desktop-card-tag-wrapper">
+                      <div class="card-tag-desktop">
+                        <i class="bi bi-circle-square icon"></i>
+                        Visual Design
+                      </div>
+                      <div class="card-tag-desktop">
+                        <i class="bi bi-person-vcard-fill icon"></i>
+                        Brand Design
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="portfolio-hr">
+                  <p>Revamped brand design and social media marketing for the 2023 Skoden Indigenous Film Festival.</p> 
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- ARTS -->
+          <div class="col-lg-6 col-md-6 portfolio-item filter-design filter-art">
+            <a href="illustrations.html" class="link-fluid">
+              <div class="portfolio-group purple">
+                <div class="portfolio-img">
+                  <img src="assets/img/personal/personal_crop.png" class="img-fluid" alt="">
+                  <div class="card-tag-wrapper mobile-card-tag-wrapper">
                     <div class="card-tag-mobile">
                       <i class="bi bi-palette-fill icon"></i>
                       Illustration
@@ -134,12 +241,8 @@
                 </div>
                 <div class="project-info">
                   <div class="portfolio-title-box">
-                    <h4>Deck-building Game</h4>
+                    <h4>Artwork</h4>
                     <div class="card-tag-wrapper desktop-card-tag-wrapper">
-                      <div class="card-tag-desktop">
-                        <i class="bi bi-ui-checks-grid icon"></i>
-                        UI Design
-                      </div>
                       <div class="card-tag-desktop">
                         <i class="bi bi-palette-fill icon"></i>
                         Illustration
@@ -147,112 +250,14 @@
                     </div>
                   </div>
                   <hr class="portfolio-hr">
-                  <p>Visual assets for the deck-building game created for the 2024 Vancouver Global Game Jam.</p>
+                  <p>A collection of digital original work and fan art, including landscapes, characters, and pixel art.</p>
                 </div>
               </div>
             </a>
           </div>
-
-
-          <!-- VILCA -->
-          <div class="col-lg-6 col-md-6 portfolio-item filter-design filter-art">
-            <a href="vilca.html" class="link-fluid">
-              <div class="portfolio-group green">
-                <div class="portfolio-img">
-                  <img src="assets/img/vilca/vilca_crop.png" class="img-fluid" alt="">
-                  <div class="card-tag-wrapper mobile-card-tag-wrapper">
-                    <div class="card-tag-mobile">
-                      <i class="bi bi-ui-checks-grid icon"></i>
-                      UX / UI Design
-                    </div>
-                  </div>
-                </div>
-                <div class="project-info">
-                  <div class="portfolio-title-box">
-                    <h4>Website Development</h4>
-                    <div class="card-tag-wrapper desktop-card-tag-wrapper">
-                      <div class="card-tag-desktop">
-                        <i class="bi bi-ui-checks-grid icon"></i>
-                        UX / UI Design
-                      </div>
-                    </div>
-                  </div>
-                  <hr class="portfolio-hr">
-                  <p>The website redesign and implementation using WordPress for a dog racing association.</p>    
-                </div>
-              </div>
-            </a>
-          </div>
-
-        <!-- SKODEN -->
-        <div class="col-lg-6 col-md-6 portfolio-item filter-design filter-art">
-          <a href="siff.html" class="link-fluid">
-            <div class="portfolio-group blue">
-              <div class="portfolio-img">
-                <img src="assets/img/skoden/skoden_crop.png" class="img-fluid" alt="">
-                <div class="card-tag-wrapper mobile-card-tag-wrapper">
-                  <div class="card-tag-mobile">
-                    <i class="bi bi-circle-square icon"></i>
-                    Visual Design
-                  </div>
-                  <div class="card-tag-mobile">
-                    <i class="bi bi-person-vcard-fill icon"></i>
-                    Brand Design
-                  </div>
-                </div>
-              </div>
-              <div class="project-info">
-                <div class="portfolio-title-box">
-                  <h4>Social Media Branding</h4>
-                  <div class="card-tag-wrapper desktop-card-tag-wrapper">
-                    <div class="card-tag-desktop">
-                      <i class="bi bi-circle-square icon"></i>
-                      Visual Design
-                    </div>
-                    <div class="card-tag-desktop">
-                      <i class="bi bi-person-vcard-fill icon"></i>
-                      Brand Design
-                    </div>
-                  </div>
-                </div>
-                <hr class="portfolio-hr">
-                <p>Revamped brand design and social media marketing for the 2023 Skoden Indigenous Film Festival.</p> 
-              </div>
-            </div>
-          </a>
         </div>
-
-        <!-- ARTS -->
-        <div class="col-lg-6 col-md-6 portfolio-item filter-design filter-art">
-          <a href="illustrations.html" class="link-fluid">
-            <div class="portfolio-group purple">
-              <div class="portfolio-img">
-                <img src="assets/img/personal/personal_crop.png" class="img-fluid" alt="">
-                <div class="card-tag-wrapper mobile-card-tag-wrapper">
-                  <div class="card-tag-mobile">
-                    <i class="bi bi-palette-fill icon"></i>
-                    Illustration
-                  </div>
-                </div>
-              </div>
-              <div class="project-info">
-                <div class="portfolio-title-box">
-                  <h4>Artwork</h4>
-                  <div class="card-tag-wrapper desktop-card-tag-wrapper">
-                    <div class="card-tag-desktop">
-                      <i class="bi bi-palette-fill icon"></i>
-                      Illustration
-                    </div>
-                  </div>
-                </div>
-                <hr class="portfolio-hr">
-                <p>A collection of digital original work and fan art, including landscapes, characters, and pixel art.</p>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section><!-- End Projects Section -->
+      </section><!-- End Projects Section -->
+    </div>
   </main><!-- End #main -->
 
 
@@ -287,6 +292,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script src="assets/js/jquery-3.7.1.js"></script>
+  <script src="assets/js/animate.js"></script>
 
 </body>
 
